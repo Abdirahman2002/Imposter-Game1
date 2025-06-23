@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  max-width: 600px;
+  margin: auto;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 1.1em;
+  margin: 5px;
+  width: 90%;
+  max-width: 300px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+}
+
+button:hover {
+  background-color: #d5d5d5;
+}
+
+#spielerListe button {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 8px auto;
+  height: 80px;
+  font-size: 1.2em;
+  border-radius: 12px;
+}
+
+#hilfeBtn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.2em;
+  background-color: #ccc;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+
+#anleitung {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  button, input, select {
+    font-size: 1em;
+  }
+}
